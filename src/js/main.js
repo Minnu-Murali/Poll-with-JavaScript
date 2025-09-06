@@ -26,13 +26,8 @@ async function fetchPolls() {
     carousel.innerHTML = "";
 
     hits.forEach((item, index) => {
-      // Create a card element (DOM node)
       const card = document.createElement("div");
-
-      // Add class using classList API
       card.classList.add("card");
-
-      // Staggered animation delay (style manipulation)
       card.style.animationDelay = `${index * 0.15}s`;
 
       // Use template literals for HTML content
