@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Capacitor / Android builds
+android/.gradle/
+android/app/build/
+android/capacitor/android/build/
+android/capacitor/android/.transforms/
+android/.idea/
+android/.cxx/
+android/local.properties
+
+# iOS builds (if present)
+ios/Pods/
+ios/build/
+ios/.idea/
+ios/xcuserdata/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/

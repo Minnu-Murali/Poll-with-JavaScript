@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Polling App</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">PollMaster</div>
+    <button class="subscribe-btn">Subscribe</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Shape Opinions <br><span>With Real-Time Polls!</span></h1>
+      <p>Create, vote, and explore live trending polls from around the world. Engage your audience like never before.</p>
+    </div>
+    <div class="carousel-container">
+      <div class="carousel" id="carousel">
+        <!-- Poll cards will be injected here -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PollMaster Inc.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalAuthor"></p>
+      <p id="modalDate"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
